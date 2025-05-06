@@ -21,7 +21,6 @@ o	Loads the signup/registration page for new users.
 o	Retrieves and displays a list of submitted travel feedback.
 4.	GET /Home/Contact
 o	Shows the contact form for users to send a message or inquiry.
-
 5.	GET /Test/Get
 o	Likely used for testing purposes; retrieves sample or dummy data.
 
