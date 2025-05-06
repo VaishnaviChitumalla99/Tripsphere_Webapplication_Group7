@@ -121,8 +121,8 @@ Lists all available travel modes.
 New users register through the signup form.
 •	Read: User data is accessed internally (e.g., login).
 •	Update/Delete: Not exposed publicly; managed internally or by admin.
-**
-Notable Technical Challenges & Solutions**
+
+**Notable Technical Challenges & Solutions**
 
 
 While working on the Trip Sphere project, we faced some technical problems, but we also learned how to solve them step by step. One big challenge was deploying the project to Microsoft Azure. At first, our app was not connecting to the database properly. We solved this by updating the correct connection string in the appsettings. Production. Json file and setting the right values in the Azure portal.
