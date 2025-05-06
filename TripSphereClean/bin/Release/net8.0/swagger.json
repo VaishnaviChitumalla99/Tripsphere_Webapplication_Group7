@@ -1,0 +1,357 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Tripsphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "version": "1.0"
+  },
+  "paths": {
+    "/Auth/Login": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "email",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "password",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Auth/Signup": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "email",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "username",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "password",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "confirm",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Auth/Logout": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ContactMessages": {
+      "post": {
+        "tags": [
+          "ContactMessages"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/ContactMessage"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Test": {
+      "get": {
+        "tags": [
+          "Test"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TravelMode": {
+      "get": {
+        "tags": [
+          "TravelMode"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TravelPlans": {
+      "get": {
+        "tags": [
+          "TravelPlans"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "TravelPlans"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/TravelPlan"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Users/register": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Users/login": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/LoginModel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "ContactMessage": {
+      "type": "object",
+      "properties": {
+        "messageId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "phoneNumber": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "subject": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        },
+        "submittedOn": {
+          "format": "date-time",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "LoginModel": {
+      "required": [
+        "email",
+        "password"
+      ],
+      "type": "object",
+      "properties": {
+        "email": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "password": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "TravelMode": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "modeOfTransport": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "TravelPlan": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "destination": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "string"
+        },
+        "budget": {
+          "format": "double",
+          "type": "number"
+        },
+        "travelModeId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "travelMode": {
+          "$ref": "#/definitions/TravelMode"
+        }
+      },
+      "additionalProperties": false
+    },
+    "User": {
+      "required": [
+        "email",
+        "password",
+        "username"
+      ],
+      "type": "object",
+      "properties": {
+        "userId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "email": {
+          "format": "email",
+          "minLength": 1,
+          "type": "string"
+        },
+        "username": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "password": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

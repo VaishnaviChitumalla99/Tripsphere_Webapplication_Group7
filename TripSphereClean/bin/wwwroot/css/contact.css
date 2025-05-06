@@ -1,0 +1,133 @@
+/* Contact Page Styling With More Visible Background Image */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), 
+                url('../Image/travel_banner.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    overflow-y: auto;
+    min-height: 100vh;
+}
+
+/* Wrapper for Form */
+.contact-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+/* Contact Form Box */
+.contact-form {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    z-index: 2;
+    animation: fadeIn 1s ease;
+}
+
+.contact-form h2 {
+    margin-bottom: 24px;
+    color: #3A5A40;
+}
+
+.contact-form label {
+    display: block;
+    margin: 12px 0 6px;
+    text-align: left;
+    font-weight: 600;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    resize: none;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #E9C46A;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #D4A373;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+/* Contact Details Info Box */
+.center-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.contact-center {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    animation: fadeIn 1s ease;
+}
+
+.contact-center h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3A5A40;
+}
+
+.contact-center p {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.contact-center i {
+    margin-right: 8px;
+    color: #3A5A40;
+}
+
+/* Animation for Entrance */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+    .contact-form,
+    .contact-center {
+        padding: 25px 18px;
+    }
+}

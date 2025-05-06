@@ -1,0 +1,102 @@
+[
+  {
+    "ContainingType": "Tripsphere.Controllers.ContactMessagesController",
+    "Method": "Post",
+    "RelativePath": "api/ContactMessages",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "Tripsphere.Models.ContactMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tripsphere.Controllers.TestController",
+    "Method": "Get",
+    "RelativePath": "api/Test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tripsphere.Controllers.TravelModeController",
+    "Method": "GetAll",
+    "RelativePath": "api/TravelMode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tripsphere.Controllers.TravelPlansController",
+    "Method": "GetAll",
+    "RelativePath": "api/TravelPlans",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plan",
+        "Type": "Tripsphere.Models.TravelPlan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tripsphere.Controllers.TravelPlansController",
+    "Method": "Create",
+    "RelativePath": "api/TravelPlans",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plan",
+        "Type": "Tripsphere.Models.TravelPlan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tripsphere.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/Users/login",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "credentials",
+        "Type": "Tripsphere.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tripsphere.Controllers.UsersController",
+    "Method": "Register",
+    "RelativePath": "api/Users/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Tripsphere.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,55 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Contact Us";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/contact.css" />
+    }
+<!-- Contact Form Section -->
+<div class="contact-wrapper">
+    <form class="contact-form" asp-controller="Home" asp-action="Contact" method="post">
+        <h2>Get in Touch</h2>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="e.g. +1-555-0123" required />
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+
+<!-- Success/Error Message -->
+@if (TempData["Message"] != null)
+{
+    <p style="text-align:center; color: green; font-weight: bold;">@TempData["Message"]</p>
+}
+
+<!-- Static Contact Details Section -->
+<main class="center-wrapper">
+    <section class="white-box contact-center">
+        <h2>Contact Information</h2>
+        <p><i class="fas fa-envelope"></i><strong> Email:</strong> <a href="mailto:info@tripsphere.com">info@tripsphere.com</a></p>
+        <p><i class="fas fa-phone-alt"></i><strong> Phone:</strong> +1-333-444-555</p>
+        <p><i class="fas fa-globe"></i><strong> Website:</strong> <a href="https://www.tripsphere.com" target="_blank">www.tripsphere.com</a></p>
+        <p><i class="fas fa-map-marker-alt"></i><strong> Address:</strong><br>
+            1456 Westburry Pointe Drive,<br>
+            Tampa, FL 33612,<br>
+            United States</p>
+    </section>
+</main>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js" crossorigin="anonymous"></script>
+}
