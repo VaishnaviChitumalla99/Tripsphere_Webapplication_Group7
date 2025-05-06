@@ -1,0 +1,73 @@
+@model List<TripSphere.Models.TripModel>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Trip Analytics";
+
+    int totalTrips = Model.Count;
+    var modeCounts = Model
+        .Where(t => !string.IsNullOrEmpty(t.Mode))
+        .GroupBy(t => t.Mode!.Trim().ToLower())
+        .ToDictionary(g => g.Key!, g => g.Count());
+
+    var topDestinations = Model
+        .Where(t => !string.IsNullOrEmpty(t.Destination))
+        .GroupBy(t => t.Destination!.Trim().ToLower())
+        .OrderByDescending(g => g.Count())
+        .ToList();
+
+    var destLabels = string.Join(",", topDestinations.Select(d => $"\"{d.First().Destination!.Trim()}\""));
+    var destData = string.Join(",", topDestinations.Select(d => d.Count()));
+    var destColors = string.Join(",", topDestinations.Select((d, i) => $"\"hsl({i * 60}, 70%, 60%)\""));
+
+    var modeLabels = string.Join(",", modeCounts.Keys.Select(k => $"\"{k}\""));
+    var modeData = string.Join(",", modeCounts.Values);
+}
+
+<h2 style="text-align:center;">Trip Analytics</h2>
+<section class="auth-form-container">
+    <p><strong>Total Trips Booked:</strong> @totalTrips</p>
+
+    <canvas id="modeChart" style="max-width: 700px; margin: 30px auto; display: block;"></canvas>
+    <canvas id="destChart" style="max-width: 700px; margin: 30px auto; display: block;"></canvas>
+</section>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const modeCtx = document.getElementById('modeChart').getContext('2d');
+        new Chart(modeCtx, {
+            type: 'bar',
+            data: {
+                labels: [@Html.Raw(modeLabels)],
+                datasets: [{
+                    label: 'Trips by Mode of Travel',
+                    data: [@Html.Raw(modeData)],
+                    backgroundColor: 'rgba(54, 162, 235, 0.6)'
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: { beginAtZero: true }
+                }
+            }
+        });
+
+        const destCtx = document.getElementById('destChart').getContext('2d');
+        new Chart(destCtx, {
+            type: 'pie',
+            data: {
+                labels: [@Html.Raw(destLabels)],
+                datasets: [{
+                    label: 'Top Destinations',
+                    data: [@Html.Raw(destData)],
+                    backgroundColor: [@Html.Raw(destColors)]
+                }]
+            },
+            options: {
+                responsive: true
+            }
+        });
+    </script>
+}

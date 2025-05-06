@@ -1,0 +1,661 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\wwwroot\\css\\about.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:wwwroot\\css\\about.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\views\\analytics\\analytics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:views\\analytics\\analytics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\views\\trips\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:views\\trips\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\data\\tripspheredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:data\\tripspheredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\models\\travelplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:models\\travelplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\controllers\\tripcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:controllers\\tripcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\controllers\\travelplanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:controllers\\travelplanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\controllers\\travelmodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:controllers\\travelmodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\models\\tripmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:models\\tripmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\models\\travelmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:models\\travelmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\data\\tripspheredbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:data\\tripspheredbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Krishna\\AppData\\Local\\Temp\\54d19c75-c1ca-4eb4-9d26-76984880c589_TripSphereClean (1).zip.589\\TripSphereClean\\Views\\Shared\\_Layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\controllers\\contactmessagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:controllers\\contactmessagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\wwwroot\\css\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:wwwroot\\css\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\models\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:models\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Migrations\\20250505180921_RecreateContactMessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250505180921_RecreateContactMessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\views\\home\\messages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:views\\home\\messages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\views\\feedback\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:views\\feedback\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\tripsphere.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:tripsphere.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Krishna\\source\\repos\\Repositories\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\views\\trips\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:views\\trips\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|c:\\users\\krishna\\downloads\\tripsphereclean\\migrations\\20250505182627_initcleandatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3276292A-E1F6-F76C-7F30-FA889C00EB83}|TripSphere.csproj|solutionrelative:migrations\\20250505182627_initcleandatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "about.css",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\wwwroot\\css\\about.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\about.css",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\wwwroot\\css\\about.css",
+              "RelativeToolTip": "wwwroot\\css\\about.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-06T05:38:55.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Analytics.cshtml",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Analytics\\Analytics.cshtml",
+              "RelativeDocumentMoniker": "Views\\Analytics\\Analytics.cshtml",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Analytics\\Analytics.cshtml",
+              "RelativeToolTip": "Views\\Analytics\\Analytics.cshtml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAwEsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T18:23:37.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-03T00:44:13.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TripsphereDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Data\\TripsphereDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\TripsphereDbContext.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Data\\TripsphereDbContext.cs",
+              "RelativeToolTip": "Data\\TripsphereDbContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswBEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:37:22.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AnalyticsController.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\AnalyticsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AnalyticsController.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\AnalyticsController.cs",
+              "RelativeToolTip": "Controllers\\AnalyticsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T02:05:23.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T03:51:32.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TravelPlan.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Models\\TravelPlan.cs",
+              "RelativeDocumentMoniker": "Models\\TravelPlan.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Models\\TravelPlan.cs",
+              "RelativeToolTip": "Models\\TravelPlan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T03:30:12.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAwEUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T17:38:43.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cshtml",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Trips\\Book.cshtml",
+              "RelativeDocumentMoniker": "Views\\Trips\\Book.cshtml",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Trips\\Book.cshtml",
+              "RelativeToolTip": "Views\\Trips\\Book.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T18:24:03.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T03:33:14.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TripController.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\TripController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TripController.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\TripController.cs",
+              "RelativeToolTip": "Controllers\\TripController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowEIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T17:59:36.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TravelPlansController.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\TravelPlansController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TravelPlansController.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\TravelPlansController.cs",
+              "RelativeToolTip": "Controllers\\TravelPlansController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T16:46:15.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TravelModeController.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\TravelModeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TravelModeController.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\TravelModeController.cs",
+              "RelativeToolTip": "Controllers\\TravelModeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T16:47:35.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\TestController.cs",
+              "RelativeToolTip": "Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T21:20:43.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FeedbackController.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\FeedbackController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FeedbackController.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\FeedbackController.cs",
+              "RelativeToolTip": "Controllers\\FeedbackController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T18:39:15.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwDYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T19:47:40.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T17:25:48.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TripModel.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Models\\TripModel.cs",
+              "RelativeDocumentMoniker": "Models\\TripModel.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Models\\TripModel.cs",
+              "RelativeToolTip": "Models\\TripModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T21:17:27.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TravelMode.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Models\\TravelMode.cs",
+              "RelativeDocumentMoniker": "Models\\TravelMode.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Models\\TravelMode.cs",
+              "RelativeToolTip": "Models\\TravelMode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T03:43:19.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T20:53:23.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T19:32:31.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TripsphereDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Data\\TripsphereDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Data\\TripsphereDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Data\\TripsphereDbContextFactory.cs",
+              "RelativeToolTip": "Data\\TripsphereDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T04:21:57.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Signup.cshtml",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Auth\\Signup.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Signup.cshtml",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Auth\\Signup.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Signup.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T17:52:19.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T17:51:37.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ContactMessagesController.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\ContactMessagesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactMessagesController.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\ContactMessagesController.cs",
+              "RelativeToolTip": "Controllers\\ContactMessagesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:27:50.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T19:00:19.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T01:09:07.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Krishna\\AppData\\Local\\Temp\\54d19c75-c1ca-4eb4-9d26-76984880c589_TripSphereClean (1).zip.589\\TripSphereClean\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\54d19c75-c1ca-4eb4-9d26-76984880c589_TripSphereClean (1).zip.589\\TripSphereClean\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Krishna\\AppData\\Local\\Temp\\54d19c75-c1ca-4eb4-9d26-76984880c589_TripSphereClean (1).zip.589\\TripSphereClean\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\54d19c75-c1ca-4eb4-9d26-76984880c589_TripSphereClean (1).zip.589\\TripSphereClean\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-06T01:03:27.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "contact.css",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\wwwroot\\css\\contact.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\contact.css",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\wwwroot\\css\\contact.css",
+              "RelativeToolTip": "wwwroot\\css\\contact.css",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-05T21:55:33.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ContactMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Models\\ContactMessage.cs",
+              "RelativeDocumentMoniker": "Models\\ContactMessage.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Models\\ContactMessage.cs",
+              "RelativeToolTip": "Models\\ContactMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T16:44:53.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20250505180921_RecreateContactMessages.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Migrations\\20250505180921_RecreateContactMessages.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250505180921_RecreateContactMessages.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Migrations\\20250505180921_RecreateContactMessages.cs",
+              "RelativeToolTip": "Migrations\\20250505180921_RecreateContactMessages.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T18:09:22.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250505182627_InitCleanDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Migrations\\20250505182627_InitCleanDatabase.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250505182627_InitCleanDatabase.cs",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Migrations\\20250505182627_InitCleanDatabase.cs",
+              "RelativeToolTip": "Migrations\\20250505182627_InitCleanDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T18:26:27.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Messages.cshtml",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Home\\Messages.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Messages.cshtml",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Home\\Messages.cshtml",
+              "RelativeToolTip": "Views\\Home\\Messages.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T17:49:48.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Feedback\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Feedback\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Feedback\\Index.cshtml",
+              "RelativeToolTip": "Views\\Feedback\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T17:49:47.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-03T16:37:19.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TripSphere",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\TripSphere.csproj",
+              "RelativeDocumentMoniker": "TripSphere.csproj",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\TripSphere.csproj",
+              "RelativeToolTip": "TripSphere.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-05T05:21:26.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Krishna\\source\\repos\\Repositories\\User.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\Repositories\\User.cs",
+              "ToolTip": "C:\\Users\\Krishna\\source\\repos\\Repositories\\User.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\Repositories\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T03:42:25.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Trips\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Trips\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Krishna\\Downloads\\TripSphereClean\\Views\\Trips\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Trips\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T18:24:45.171Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

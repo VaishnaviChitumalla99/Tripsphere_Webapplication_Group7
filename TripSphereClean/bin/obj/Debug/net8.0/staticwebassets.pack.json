@@ -1,0 +1,421 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TripSphere.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TripSphere.6p8kwzttfb.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\Australia.jpg",
+      "PackagePath": "staticwebassets\\Image\\Australia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\Dubai.jpg",
+      "PackagePath": "staticwebassets\\Image\\Dubai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\Greece.jpg",
+      "PackagePath": "staticwebassets\\Image\\Greece.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\India.jpg",
+      "PackagePath": "staticwebassets\\Image\\India.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\Italy.jpg",
+      "PackagePath": "staticwebassets\\Image\\Italy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\Plane1.jpg",
+      "PackagePath": "staticwebassets\\Image\\Plane1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\Plane2.jpg",
+      "PackagePath": "staticwebassets\\Image\\Plane2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\Plane3.jpg",
+      "PackagePath": "staticwebassets\\Image\\Plane3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\Plane4.jpg",
+      "PackagePath": "staticwebassets\\Image\\Plane4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\Plane5.jpg",
+      "PackagePath": "staticwebassets\\Image\\Plane5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\TravelBK.jpg",
+      "PackagePath": "staticwebassets\\Image\\TravelBK.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\china.jpg",
+      "PackagePath": "staticwebassets\\Image\\china.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\japan.jpg",
+      "PackagePath": "staticwebassets\\Image\\japan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\logo.jpg",
+      "PackagePath": "staticwebassets\\Image\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\london.jpg",
+      "PackagePath": "staticwebassets\\Image\\london.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\newyork.jpg",
+      "PackagePath": "staticwebassets\\Image\\newyork.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\paris.jpg",
+      "PackagePath": "staticwebassets\\Image\\paris.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\team\\Ankita.jpeg",
+      "PackagePath": "staticwebassets\\Image\\team\\Ankita.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\team\\Namratha.jpeg",
+      "PackagePath": "staticwebassets\\Image\\team\\Namratha.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\team\\subham.jpeg",
+      "PackagePath": "staticwebassets\\Image\\team\\subham.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\team\\vaishnavi.jpg",
+      "PackagePath": "staticwebassets\\Image\\team\\vaishnavi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\travel-bg.jpeg",
+      "PackagePath": "staticwebassets\\Image\\travel-bg.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\travel_banner.jpg",
+      "PackagePath": "staticwebassets\\Image\\travel_banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\usa.jpg",
+      "PackagePath": "staticwebassets\\Image\\usa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\Image\\vid.mp4",
+      "PackagePath": "staticwebassets\\Image\\vid.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\css\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\css\\book.css",
+      "PackagePath": "staticwebassets\\css\\book.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\css\\feedback.css",
+      "PackagePath": "staticwebassets\\css\\feedback.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\css\\recommend.css",
+      "PackagePath": "staticwebassets\\css\\recommend.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\css\\signup.css",
+      "PackagePath": "staticwebassets\\css\\signup.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Krishna\\Downloads\\TripSphere Updated\\TripSphere\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TripSphere.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TripSphere.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TripSphere.props",
+      "PackagePath": "build\\TripSphere.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TripSphere.props",
+      "PackagePath": "buildMultiTargeting\\TripSphere.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TripSphere.props",
+      "PackagePath": "buildTransitive\\TripSphere.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

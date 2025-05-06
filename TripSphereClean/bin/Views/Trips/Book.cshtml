@@ -1,0 +1,111 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Book Now";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/book.css" />
+}
+
+<!-- Hero Banner -->
+<section class="hero">
+    <h1>Plan Your Dream Trip</h1>
+    <p>Fill in your preferences to create your ideal travel plan.</p>
+</section>
+
+<!-- Trip Booking Form -->
+<div class="booking-card">
+    <form id="bookNowForm">
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" placeholder="Enter destination" required />
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" placeholder="Enter country" required />
+
+        <label for="duration">Duration:</label>
+        <input type="text" id="duration" name="duration" placeholder="e.g. 5 Days" required />
+
+        <label for="budget">Budget:</label>
+        <input type="text" id="budget" name="budget" placeholder="e.g. $1500" required />
+
+        <label for="mode">Mode of Travel:</label>
+        <select id="mode" name="mode" required>
+            <option value="">--Select--</option>
+            <option value="Bus">Bus</option>
+            <option value="Aeroplane">Aeroplane</option>
+            <option value="Train">Train</option>
+        </select>
+
+        <button type="submit">Book Trip</button>
+    </form>
+</div>
+
+<!-- Saved Trips Table -->
+<div id="savedTripsSection" style="margin-top: 40px;">
+    <h3 style="text-align: center;">Saved Trips</h3>
+    <table id="savedTripsTable" style="margin: 0 auto; width: 90%; border-collapse: collapse;">
+        <thead style="background: #b2dfdb;">
+            <tr>
+                <th>Destination</th>
+                <th>Country</th>
+                <th>Duration</th>
+                <th>Budget</th>
+                <th>Mode</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById("bookNowForm").addEventListener("submit", async function (e) {
+            e.preventDefault();
+
+            const data = {
+                destination: document.getElementById("destination").value,
+                country: document.getElementById("country").value,
+                duration: document.getElementById("duration").value,
+                budget: document.getElementById("budget").value,
+                mode: document.getElementById("mode").value,
+                userId: 1,            // 🔧 Replace with logged-in user ID
+                travelModeId: 2       // 🔧 Replace with mode ID from DB
+            };
+
+            const response = await fetch("/api/travelplans", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(data)
+            });
+
+            if (response.ok) {
+                alert("Trip booked successfully!");
+                document.getElementById("bookNowForm").reset();
+                loadTrips(); // refresh the table
+            } else {
+                alert("Booking failed. Please try again.");
+            }
+        });
+
+        async function loadTrips() {
+            const response = await fetch("/api/travelplans");
+            const trips = await response.json();
+            const tbody = document.querySelector("#savedTripsTable tbody");
+            tbody.innerHTML = "";
+
+            trips.forEach(trip => {
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                    <td>${trip.destination}</td>
+                    <td>${trip.country}</td>
+                    <td>${trip.duration}</td>
+                    <td>${trip.budget}</td>
+                    <td>${trip.mode || trip.travelMode?.name || "-"}</td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        window.addEventListener("DOMContentLoaded", loadTrips);
+    </script>
+}

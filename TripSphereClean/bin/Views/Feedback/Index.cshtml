@@ -1,0 +1,47 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Feedback";
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/feedback.css" />
+    }
+
+<!-- Hero Section -->
+<div class="hero">
+    <h1>Share Your Journey</h1>
+    <p>Your feedback helps us and fellow travelers</p>
+</div>
+
+@if (TempData["Message"] != null)
+{
+    <p class="success-msg">@TempData["Message"]</p>
+}
+
+<!-- Feedback Form -->
+<div class="feedback-card">
+    <form asp-controller="Feedback" asp-action="Submit" method="post">
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" placeholder="Enter Destination" required />
+
+        <label for="rating">Rating:</label>
+        <select id="rating" name="rating" required>
+            <option value="">Select</option>
+            <option value="1">1 Star</option>
+            <option value="2">2 Stars</option>
+            <option value="3">3 Stars</option>
+            <option value="4">4 Stars</option>
+            <option value="5">5 Stars</option>
+        </select>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" placeholder="Share your experience..." required></textarea>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        // Optional interactivity
+    </script>
+}
