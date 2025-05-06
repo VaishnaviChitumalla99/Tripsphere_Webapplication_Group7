@@ -11,6 +11,7 @@ TripSphere is a simple and user-friendly travel planning website. It helps peopl
 •	Mobile-Friendly Design: The layout adjusts nicely on phone, tablet, and desktop.
 
 
+
 **API Endpoints Used**
 
 1.	GET /Auth/Login
