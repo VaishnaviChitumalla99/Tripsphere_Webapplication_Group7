@@ -26,6 +26,9 @@ o	Shows the contact form for users to send a message or inquiry.
 o	Likely used for testing purposes; retrieves sample or dummy data.
 
 **Data Model(ERD)**
+
+![ERD Daigram](https://github.com/user-attachments/assets/054b55f6-59d6-4fa8-944b-d14314ddf3cc)
+
  
 This ERD shows how data is stored and connected in a travel-related application. It has three main tables: TravelMode, TravelPlans, and TravelFeedback. These tables are connected using primary keys (PK) and foreign keys (FK).
 
